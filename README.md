@@ -55,7 +55,7 @@ When a customer clicks the Contact Us button, their email app opens with the fol
 
 Subject:
 ```
-Product Inquiry: $productName (SKU: $productSKU)
+Product Inquiry: $product_name (SKU: $product_sku)
 ```
 
 Body:
@@ -64,9 +64,9 @@ Hi,
 
 I'm interested in the following product:
 
-Product: $productName
-SKU: $productSKU  
-URL: $productURL
+Product: $product_name
+SKU: $product_sku  
+URL: $product_url
 
 Thank you!
 ```
