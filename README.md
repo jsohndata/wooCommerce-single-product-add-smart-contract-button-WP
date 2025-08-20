@@ -54,8 +54,9 @@ Clean, lightweight, and compatible with WPCode, Code Snippets, or a child themeâ
 When a customer clicks the Contact Us button, their email app opens with the following:
 
 Subject:
-`Product Inquiry: $productName (SKU: $productSKU)`
-
+```
+Product Inquiry: $productName (SKU: $productSKU)
+```
 
 Body:
 ```
