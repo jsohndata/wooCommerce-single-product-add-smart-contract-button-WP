@@ -76,3 +76,37 @@ function add_contact_button_with_product_info() {
     // Output the button
     echo '<a href="' . esc_url($mailto_link) . '" class="button contact-button" style="margin-top: 15px; display: inline-block;">Contact Us</a>';
 }
+
+---
+
+## Code
+Example Email Output
+
+When a customer clicks the Contact Us button, their email app opens with the following:
+
+Subject
+## Code
+Product Inquiry: $productName (SKU: $productSKU)
+
+---
+
+Body 
+## Code
+Hi,
+
+I'm interested in the following product:
+
+Product: $productName
+SKU: $productSKU  
+URL: $productURL
+
+Thank you!
+
+
+---
+
+
+
+
+
+
