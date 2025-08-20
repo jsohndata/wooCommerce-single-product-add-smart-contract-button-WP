@@ -50,19 +50,15 @@ Clean, lightweight, and compatible with WPCode, Code Snippets, or a child themeâ
 
 ---
 
-## Code
-Example Email Output
-
+## Example Email Output
 When a customer clicks the Contact Us button, their email app opens with the following:
 
-Subject
-## Code
-Product Inquiry: $productName (SKU: $productSKU)
+Subject:
+`Product Inquiry: $productName (SKU: $productSKU)`
 
----
 
-Body 
-## Code
+Body:
+```
 Hi,
 
 I'm interested in the following product:
@@ -72,9 +68,7 @@ SKU: $productSKU
 URL: $productURL
 
 Thank you!
-
----
-
+```
 
 ## Code
 
