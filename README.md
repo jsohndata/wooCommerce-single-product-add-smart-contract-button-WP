@@ -7,7 +7,7 @@ Clean, lightweight, and compatible with WPCode, Code Snippets, or a child themeâ
 ---
 
 ## Working Sample
-[Sansefuria.com](https://sansefuria.com/plants/sansevieria-cylindrica-african-spear-plant-medium-cbsan02/)
+[Sansefuria.com](https://sansefuria.com/plants/cereus-forbesii-monstrose-ming-thing-medium-succulent-lfmng00/)
 
 ---
 
