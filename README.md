@@ -1,7 +1,8 @@
-# WooCommerce: Add Dynamic “Contact Us” Email Button with Product Details — WPCode-Compatible
+# WooCommerce: Conditional “Contact Us” Email Button with Product Details — WPCode-Compatible
 
-🤖 **AI-Enhanced (GPT-5)** WooCommerce snippet that adds a smart **"Contact Us"** button to the single product page.  
+🤖 **AI-Enhanced (GPT-5)** WooCommerce snippet that adds a smart **"Contact Us"** button to the single product page — **only when the product is available**.  
 The button opens a pre-filled email including the product **name**, **SKU**, and **page URL** in the subject and body.  
+If the product is **out of stock** or tagged/categorized as **sold**, the button will not appear.  
 Clean, lightweight, and compatible with WPCode, Code Snippets, or a child theme’s `functions.php`.
 
 ---
@@ -18,9 +19,12 @@ Clean, lightweight, and compatible with WPCode, Code Snippets, or a child theme�
   - Product **name**
   - Product **SKU**
   - Product **URL**
+- **Conditional logic**:
+  - Hidden automatically if product is **sold out** or marked **sold** (tag or category)
 - Uses `mailto:` (no forms or plugins needed)
 - Works with any theme using WooCommerce hooks
-- Clean code, no templates modified
+- Clean, functional-style code — no templates modified
+- All text/email easily configurable at the top of the snippet
 
 ---
 
@@ -42,7 +46,7 @@ Clean, lightweight, and compatible with WPCode, Code Snippets, or a child theme�
 2. Go to **Code Snippets → Add New**
 3. Choose **“Add Your Custom Code (New Snippet)”**
 4. Select **PHP Snippet**
-5. Name it: `WooCommerce Contact Us Button`
+5. Name it: `WooCommerce Conditional Contact Us Button`
 6. Paste the code from the **Code** section below
 7. Set **Location** to `Run Everywhere`
 8. Save and **Activate**
